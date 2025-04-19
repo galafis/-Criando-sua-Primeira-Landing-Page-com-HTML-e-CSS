@@ -22,7 +22,7 @@ A página apresenta um projeto fictício de exploração sobre a cultura Viking,
 
 ## 👨‍💻 Autor
 
-Desenvolvido por um estudante universitário de Ciência de Dados, com base no protótipo Figma fornecido pela DIO.
+Desenvolvido por mim, um estudante universitário de Ciência de Dados, com base no protótipo Figma fornecido pela DIO.
 
 ## 🖼️ Protótipo
 
