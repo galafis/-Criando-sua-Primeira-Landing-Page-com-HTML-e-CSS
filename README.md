@@ -1,49 +1,18 @@
-# Landing Page - Projeto Vikings
+# Tutorial Landing Page
 
-Landing page desenvolvida como parte do desafio da trilha de CSS da DIO.
+Aprenda a criar landing pages profissionais com HTML e CSS.
 
-## 🔱 Tema
+## Como usar
 
-A página apresenta um projeto fictício de exploração sobre a cultura Viking, combinando elementos visuais fortes e estrutura semântica.
+```bash
+git clone https://github.com/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS.git
+# Abra index.html no navegador
+```
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - HTML5
-- CSS3
-- Flexbox
-- Google Fonts
+- CSS3  
+- JavaScript
 
-## 🎯 Estrutura
-
-- Header com menu de navegação
-- Hero section com destaque visual
-- Seções "Sobre" e "Destaques do Projeto"
-- Rodapé com créditos
-
-## 👨‍💻 Autor
-
-Desenvolvido por mim, um estudante universitário de Ciência de Dados, com base no protótipo Figma fornecido pela DIO.
-
-## 🖼️ Protótipo
-
-[Figma oficial do desafio](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=0%3A1)
-
-
-## 📋 Descrição
-
-Descreva aqui o conteúdo desta seção.
-
-
-## 📦 Instalação
-
-Descreva aqui o conteúdo desta seção.
-
-
-## 💻 Uso
-
-Descreva aqui o conteúdo desta seção.
-
-
-## 📄 Licença
-
-Descreva aqui o conteúdo desta seção.
+Por galafis

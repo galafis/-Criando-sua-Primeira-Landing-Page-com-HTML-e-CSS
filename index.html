@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto Vikings - DIO</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Landing Page</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; }
+        .hero { background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+        .container { max-width: 800px; padding: 40px 20px; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        p { font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9; }
+        .btn { display: inline-block; padding: 12px 24px; background: rgba(255,255,255,0.2); color: white; text-decoration: none; border-radius: 8px; margin: 10px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .card { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; }
+        @media (max-width: 768px) { h1 { font-size: 2rem; } }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="imagens/logo.png" alt="Logo Viking" class="logo" />
-      <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#projeto">Projeto</a>
-        <a href="#contato">Contato</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
     <section class="hero">
-      <h1>Desbrave o Mundo Viking</h1>
-      <p>Conheça o projeto que mergulha na cultura, conquistas e mistérios dos povos nórdicos.</p>
-      <a href="#projeto" class="btn">Saiba Mais</a>
+        <div class="container">
+            <h1>🚀 Tutorial Landing Page</h1>
+            <p>Aprenda a criar landing pages profissionais com HTML e CSS do zero ao deploy!</p>
+            <a href="#" class="btn">Começar Tutorial</a>
+            <a href="#" class="btn">Ver Exemplos</a>
+            <div class="features">
+                <div class="card">
+                    <h3>📝 HTML5</h3>
+                    <p>Estrutura semântica moderna</p>
+                </div>
+                <div class="card">
+                    <h3>🎨 CSS3</h3>
+                    <p>Estilização responsiva</p>
+                </div>
+                <div class="card">
+                    <h3>⚡ JavaScript</h3>
+                    <p>Interatividade funcional</p>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <section id="sobre" class="sobre">
-      <h2>Sobre o Projeto</h2>
-      <p>Este projeto foi criado durante o desafio de CSS da DIO e tem como objetivo explorar o uso de HTML e CSS em uma landing page temática, com foco em identidade visual e responsividade.</p>
-    </section>
-
-    <section id="projeto" class="projeto">
-      <h2>Destaques do Projeto</h2>
-      <ul>
-        <li>HTML semântico</li>
-        <li>Design temático Viking</li>
-        <li>Layout responsivo com Flexbox</li>
-        <li>Fonte estilizada e imagens imersivas</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer id="contato">
-    <p>&copy; 2025 Projeto Vikings. Desenvolvido para o desafio CSS da DIO.</p>
-  </footer>
+    <script>console.log('Tutorial carregado!');</script>
 </body>
 </html>
