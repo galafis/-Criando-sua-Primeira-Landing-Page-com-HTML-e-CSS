@@ -1,0 +1,31 @@
+graph TB
+    A[Landing Page Project] --> B[Frontend Layer]
+    A --> C[Assets Layer]
+    A --> D[Documentation]
+    
+    B --> B1[index.html]
+    B --> B2[assets/css/style.css]
+    B --> B3[assets/js/script.js]
+    
+    C --> C1[assets/images/]
+    C1 --> C1A[background.jpeg]
+    C1 --> C1B[logo.png]
+    
+    D --> D1[README.md]
+    D --> D2[docs/screenshots/]
+    D --> D3[LICENSE]
+    
+    B1 --> E[HTML5 Semantic Structure]
+    B2 --> F[CSS3 Responsive Design]
+    B3 --> G[JavaScript Interactivity]
+    
+    E --> H[GitHub Pages]
+    F --> H
+    G --> H
+    C1 --> H
+    
+    H --> I[Live Demo]
+    
+    style A fill:#c3073f,stroke:#950740,stroke-width:3px,color:#fff
+    style H fill:#1f1f1f,stroke:#c3073f,stroke-width:2px,color:#fff
+    style I fill:#0b0c10,stroke:#c3073f,stroke-width:2px,color:#fff

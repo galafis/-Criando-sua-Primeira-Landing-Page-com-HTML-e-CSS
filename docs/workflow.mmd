@@ -1,0 +1,17 @@
+graph LR
+    A[Start Project] --> B[Create HTML Structure]
+    B --> C[Design CSS Styles]
+    C --> D[Add JavaScript Interactivity]
+    D --> E[Test Locally]
+    E --> F{All Features Working?}
+    F -->|No| G[Debug & Fix]
+    G --> E
+    F -->|Yes| H[Commit to GitHub]
+    H --> I[Enable GitHub Pages]
+    I --> J[Live Website]
+    J --> K[Share & Deploy]
+    
+    style A fill:#c3073f,stroke:#950740,stroke-width:2px,color:#fff
+    style K fill:#c3073f,stroke:#950740,stroke-width:2px,color:#fff
+    style F fill:#1f1f1f,stroke:#c3073f,stroke-width:2px,color:#fff
+    style J fill:#0b0c10,stroke:#c3073f,stroke-width:2px,color:#fff

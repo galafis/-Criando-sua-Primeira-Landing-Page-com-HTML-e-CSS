@@ -1,9 +1,14 @@
-# Tutorial Landing Page
+# 🚀 Tutorial Landing Page - HTML, CSS & JavaScript
 
-![GitHub language count](https://img.shields.io/github/languages/count/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=flat-square)
+![Banner do Projeto](docs/screenshots/readme-banner.png)
 
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=for-the-badge&color=c3073f" alt="Contagem de Linguagens">
+  <img src="https://img.shields.io/github/languages/top/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=for-the-badge&color=950740" alt="Linguagem Principal">
+  <img src="https://img.shields.io/github/repo-size/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=for-the-badge&color=c3073f" alt="Tamanho do Repositório">
+  <img src="https://img.shields.io/github/last-commit/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS?style=for-the-badge&color=950740" alt="Último Commit">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&color=c3073f" alt="Licença MIT">
+</p>
 
 ---
 
@@ -11,56 +16,63 @@
 
 ### Sobre o Projeto
 
-Este repositório contém o código para uma landing page simples, criada como parte de um tutorial para ensinar os fundamentos de HTML e CSS. O objetivo é fornecer um exemplo prático e funcional que os iniciantes possam seguir e aprender.
+Este repositório contém o código-fonte de uma landing page moderna e totalmente responsiva, criada como parte de um tutorial completo para ensinar os fundamentos do desenvolvimento web com **HTML5**, **CSS3** e **JavaScript**. O objetivo é fornecer um exemplo prático, profissional e funcional que sirva como um guia passo a passo para iniciantes e como um portfólio de referência para desenvolvedores.
 
-### Tecnologias Utilizadas
+### ✨ Live Demo
 
-*   **HTML5:** Para a estrutura semântica da página.
-*   **CSS3:** Para a estilização e o design responsivo.
-*   **JavaScript:** Para funcionalidades interativas mínimas.
+Visualize o projeto em ação! A landing page está hospedada e totalmente funcional através do GitHub Pages.
 
-### Como Começar
+**[➡️ Acessar a Live Demo](https://galafis.github.io/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS/)**
 
-Para visualizar o projeto localmente, basta seguir estes passos:
+### 📸 Visualização do Projeto
+
+![Preview da Landing Page](docs/screenshots/landing-page-preview.webp)
+
+### Principais Funcionalidades
+
+- **Design Moderno e Responsivo:** Totalmente adaptável a desktops, tablets e smartphones.
+- **Interatividade com JavaScript:** Menu de navegação mobile, smooth scrolling e animações dinâmicas.
+- **Animações CSS:** Efeitos de hover, transições suaves e animações ao rolar a página.
+- **Estrutura Semântica:** HTML5 organizado para melhor acessibilidade e SEO.
+- **Formulário de Contato Funcional:** Com validação de campos em tempo real.
+- **Código Otimizado:** Variáveis CSS, estrutura de arquivos organizada e melhores práticas de desenvolvimento.
+
+### 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+| :---: | --- |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Estrutura semântica e conteúdo da página. |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Estilização, design responsivo e animações. |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Interatividade, manipulação do DOM e funcionalidades dinâmicas. |
+
+### 🏗️ Arquitetura do Projeto
+
+O projeto segue uma estrutura de arquivos organizada para facilitar a manutenção e escalabilidade.
+
+![Diagrama de Arquitetura](docs/screenshots/architecture-diagram.png)
+
+### 🚀 Como Começar
+
+Para executar o projeto localmente, siga estes passos:
 
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS.git
     ```
-2.  **Abra o arquivo `index.html`:**
-    Navegue até a pasta do projeto e abra o arquivo `index.html` no seu navegador de preferência.
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd -Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS
+    ```
+3.  **Abra o arquivo `index.html` no seu navegador:**
+    Você pode simplesmente arrastar o arquivo para a janela do navegador ou usar uma extensão como o Live Server no VS Code para uma melhor experiência de desenvolvimento.
 
-### Live Demo com GitHub Pages
-Você pode facilmente hospedar esta landing page gratuitamente usando o GitHub Pages. Siga os passos abaixo:
+### 🔄 Fluxo de Desenvolvimento
 
-1. **Navegue até as Configurações (Settings) do seu repositório.**
-2. **No menu lateral, clique em Pages.**
-3. **Em "Branch", selecione a branch `main` (ou `master`) e a pasta `/(root)`.**
-4. **Clique em Salvar (Save).**
+O desenvolvimento deste projeto seguiu um fluxo de trabalho claro e iterativo, desde a estruturação inicial até o deploy final.
 
-Após alguns instantes, sua página estará disponível no endereço fornecido pelo GitHub Pages.
+![Diagrama de Workflow](docs/screenshots/workflow-diagram.png)
 
-### Estrutura de Arquivos
-
-A estrutura de arquivos do projeto é a seguinte:
-
-```
-.
-├── LICENSE
-├── README.md
-├── imagens
-│   └── background.jpg
-├── index.html
-├── script.js
-└── style.css
-```
-
-*   **`index.html`:** O arquivo principal da página.
-*   **`style.css`:** Contém todos os estilos da página.
-*   **`script.js`:** Contém o código JavaScript.
-*   **`imagens/`:** Pasta que armazena as imagens do projeto.
-
-### Contribuindo
+### 🤝 Contribuindo
 
 Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
 
@@ -76,56 +88,63 @@ Contribuições são o que tornam a comunidade de código aberto um lugar incrí
 
 ### About The Project
 
-This repository contains the code for a simple landing page, created as part of a tutorial to teach the fundamentals of HTML and CSS. The goal is to provide a practical and functional example that beginners can follow and learn from.
+This repository contains the source code for a modern and fully responsive landing page, created as part of a comprehensive tutorial to teach the fundamentals of web development with **HTML5**, **CSS3**, and **JavaScript**. The goal is to provide a practical, professional, and functional example that serves as a step-by-step guide for beginners and a reference portfolio for developers.
 
-### Built With
+### ✨ Live Demo
 
-*   **HTML5:** For the semantic structure of the page.
-*   **CSS3:** For styling and responsive design.
-*   **JavaScript:** For minimal interactive features.
+See the project in action! The landing page is hosted and fully functional via GitHub Pages.
 
-### Getting Started
+**[➡️ Access the Live Demo](https://galafis.github.io/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS/)**
 
-To get a local copy up and running follow these simple steps.
+### 📸 Project Preview
 
-1.  **Clone the repo:**
+![Landing Page Preview](docs/screenshots/landing-page-preview.webp)
+
+### Key Features
+
+- **Modern and Responsive Design:** Fully adaptable to desktops, tablets, and smartphones.
+- **JavaScript Interactivity:** Mobile navigation menu, smooth scrolling, and dynamic animations.
+- **CSS Animations:** Hover effects, smooth transitions, and scroll-triggered animations.
+- **Semantic Structure:** Organized HTML5 for better accessibility and SEO.
+- **Functional Contact Form:** With real-time field validation.
+- **Optimized Code:** CSS variables, organized file structure, and development best practices.
+
+### 🛠️ Technologies Used
+
+| Technology | Description |
+| :---: | --- |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Semantic structure and page content. |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling, responsive design, and animations. |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Interactivity, DOM manipulation, and dynamic features. |
+
+### 🏗️ Project Architecture
+
+The project follows an organized file structure to facilitate maintenance and scalability.
+
+![Architecture Diagram](docs/screenshots/architecture-diagram.png)
+
+### 🚀 Getting Started
+
+To run the project locally, follow these steps:
+
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS.git
     ```
-2.  **Open `index.html`:**
-    Navigate to the project folder and open the `index.html` file in your preferred browser.
+2.  **Navigate to the project directory:**
+    ```bash
+    cd -Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS
+    ```
+3.  **Open the `index.html` file in your browser:**
+    You can simply drag the file into the browser window or use an extension like Live Server in VS Code for a better development experience.
 
-### Live Demo with GitHub Pages
-You can easily host this landing page for free using GitHub Pages. Follow the steps below:
+### 🔄 Development Workflow
 
-1. **Navigate to your repository's Settings.**
-2. **In the side menu, click on Pages.**
-3. **Under "Branch", select the `main` (or `master`) branch and the `/(root)` folder.**
-4. **Click Save.**
+The development of this project followed a clear and iterative workflow, from the initial structure to the final deployment.
 
-After a few moments, your page will be available at the address provided by GitHub Pages.
+![Workflow Diagram](docs/screenshots/workflow-diagram.png)
 
-### File Structure
-
-The project's file structure is as follows:
-
-```
-.
-├── LICENSE
-├── README.md
-├── imagens
-│   └── background.jpg
-├── index.html
-├── script.js
-└── style.css
-```
-
-*   **`index.html`:** The main file of the page.
-*   **`style.css`:** Contains all the styles for the page.
-*   **`script.js`:** Contains the JavaScript code.
-*   **`imagens/`:** Folder that stores the project's images.
-
-### Contributing
+### 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -137,7 +156,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ---
 
-### License
+### 📜 License
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
@@ -145,8 +164,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-### Authorship
+### 👨‍💻 Authorship
 
 Este projeto foi criado por **Gabriel Demetrios Lafis**.
 
 This project was created by **Gabriel Demetrios Lafis**.
+

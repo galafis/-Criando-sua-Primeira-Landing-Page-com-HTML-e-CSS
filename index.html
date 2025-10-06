@@ -3,52 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial Landing Page</title>
+    <meta name="description" content="Aprenda a criar landing pages profissionais com HTML, CSS e JavaScript do zero ao deploy. Tutorial completo e prático.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Landing Page, Tutorial, Web Development">
+    <meta name="author" content="Gabriel Demetrios Lafis">
+    <meta property="og:title" content="Tutorial Landing Page - HTML & CSS">
+    <meta property="og:description" content="Aprenda a criar landing pages profissionais do zero ao deploy">
+    <meta property="og:type" content="website">
+    <title>Tutorial Landing Page - HTML & CSS</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" class="logo">Tutorial Landing Page</a>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Recursos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+    <!-- Header Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                    <span class="logo-text">Tutorial Landing Page</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#features" class="nav-link">Recursos</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#how-it-works" class="nav-link">Como Funciona</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
         </nav>
     </header>
+
+    <!-- Hero Section -->
     <main>
-        <section class="hero">
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    <span class="emoji-icon">🚀</span>
+                    Tutorial Landing Page
+                </h1>
+                <p class="hero-subtitle">Aprenda a criar landing pages profissionais com HTML e CSS do zero ao deploy!</p>
+                <div class="hero-buttons">
+                    <a href="#how-it-works" class="btn btn-primary">Começar Tutorial</a>
+                    <a href="#features" class="btn btn-secondary">Ver Exemplos</a>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
             <div class="container">
-                <h1>🚀 Tutorial Landing Page</h1>
-                <p>Aprenda a criar landing pages profissionais com HTML e CSS do zero ao deploy!</p>
-                <a href="#" class="btn">Começar Tutorial</a>
-                <a href="#" class="btn">Ver Exemplos</a>
-                <div class="features">
-                    <div class="card">
-                        <h3>📝 HTML5</h3>
-                        <p>Estrutura semântica moderna</p>
+                <h2 class="section-title">Tecnologias Utilizadas</h2>
+                <p class="section-subtitle">Domine as principais tecnologias do desenvolvimento web moderno</p>
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="feature-icon">📝</div>
+                        <h3 class="feature-title">HTML5</h3>
+                        <p class="feature-description">Estrutura semântica moderna e acessível, seguindo as melhores práticas de desenvolvimento web.</p>
+                        <ul class="feature-list">
+                            <li>Tags semânticas</li>
+                            <li>SEO otimizado</li>
+                            <li>Acessibilidade</li>
+                        </ul>
                     </div>
-                    <div class="card">
-                        <h3>🎨 CSS3</h3>
-                        <p>Estilização responsiva</p>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">🎨</div>
+                        <h3 class="feature-title">CSS3</h3>
+                        <p class="feature-description">Estilização responsiva e animações fluidas para uma experiência visual impressionante.</p>
+                        <ul class="feature-list">
+                            <li>Design responsivo</li>
+                            <li>Flexbox & Grid</li>
+                            <li>Animações CSS</li>
+                        </ul>
                     </div>
-                    <div class="card">
-                        <h3>⚡ JavaScript</h3>
-                        <p>Interatividade funcional</p>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">JavaScript</h3>
+                        <p class="feature-description">Interatividade funcional e dinâmica para criar experiências envolventes aos usuários.</p>
+                        <ul class="feature-list">
+                            <li>DOM Manipulation</li>
+                            <li>Event Listeners</li>
+                            <li>Smooth Scrolling</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <h2 class="section-title">Sobre o Projeto</h2>
+                        <p>Este projeto foi desenvolvido como um tutorial completo e prático para ensinar os fundamentos do desenvolvimento web. Através de exemplos reais e código funcional, você aprenderá a criar landing pages profissionais do zero.</p>
+                        <p>O objetivo é fornecer uma base sólida em HTML, CSS e JavaScript, permitindo que você construa suas próprias páginas web com confiança e criatividade.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="100">0</div>
+                                <div class="stat-label">% Responsivo</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="3">0</div>
+                                <div class="stat-label">Tecnologias</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="0">0</div>
+                                <div class="stat-label">Custo</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="code-preview">
+                            <div class="code-header">
+                                <span class="code-dot" style="background: #ff5f56;"></span>
+                                <span class="code-dot" style="background: #ffbd2e;"></span>
+                                <span class="code-dot" style="background: #27c93f;"></span>
+                            </div>
+                            <pre class="code-content"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Landing Page&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-title">Como Funciona</h2>
+                <p class="section-subtitle">Siga estes passos simples para criar sua landing page</p>
+                <div class="steps-container">
+                    <div class="step" data-aos="fade-up" data-aos-delay="0">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Clone o Repositório</h3>
+                        <p class="step-description">Faça o clone do projeto para sua máquina local usando Git.</p>
+                        <div class="code-snippet">
+                            <code>git clone https://github.com/galafis/...</code>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Personalize o Código</h3>
+                        <p class="step-description">Edite os arquivos HTML, CSS e JavaScript conforme suas necessidades.</p>
+                        <div class="code-snippet">
+                            <code>code index.html style.css script.js</code>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Teste Localmente</h3>
+                        <p class="step-description">Abra o arquivo index.html no navegador para visualizar suas mudanças.</p>
+                        <div class="code-snippet">
+                            <code>open index.html</code>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Deploy com GitHub Pages</h3>
+                        <p class="step-description">Publique gratuitamente usando GitHub Pages e compartilhe com o mundo.</p>
+                        <div class="code-snippet">
+                            <code>Settings → Pages → Deploy</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Tem alguma dúvida ou sugestão? Envie uma mensagem!</p>
+                <form class="contact-form" id="contactForm" data-aos="fade-up">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Assunto da mensagem">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Enviar Mensagem</button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Gabriel Demetrios Lafis. Todos os direitos reservados.</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tutorial Landing Page</h3>
+                    <p>Aprenda a criar landing pages profissionais com HTML, CSS e JavaScript.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/galafis/-Criando-sua-Primeira-Landing-Page-com-HTML-e-CSS" target="_blank">GitHub</a></li>
+                        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gabriel Demetrios Lafis. Todos os direitos reservados.</p>
+                <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+                    <span>↑</span>
+                </button>
+            </div>
+        </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
-
