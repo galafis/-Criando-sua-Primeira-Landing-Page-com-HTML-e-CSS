@@ -30,6 +30,16 @@ Para visualizar o projeto localmente, basta seguir estes passos:
 2.  **Abra o arquivo `index.html`:**
     Navegue até a pasta do projeto e abra o arquivo `index.html` no seu navegador de preferência.
 
+### Live Demo com GitHub Pages
+Você pode facilmente hospedar esta landing page gratuitamente usando o GitHub Pages. Siga os passos abaixo:
+
+1. **Navegue até as Configurações (Settings) do seu repositório.**
+2. **No menu lateral, clique em Pages.**
+3. **Em "Branch", selecione a branch `main` (ou `master`) e a pasta `/(root)`.**
+4. **Clique em Salvar (Save).**
+
+Após alguns instantes, sua página estará disponível no endereço fornecido pelo GitHub Pages.
+
 ### Estrutura de Arquivos
 
 A estrutura de arquivos do projeto é a seguinte:
@@ -84,6 +94,16 @@ To get a local copy up and running follow these simple steps.
     ```
 2.  **Open `index.html`:**
     Navigate to the project folder and open the `index.html` file in your preferred browser.
+
+### Live Demo with GitHub Pages
+You can easily host this landing page for free using GitHub Pages. Follow the steps below:
+
+1. **Navigate to your repository's Settings.**
+2. **In the side menu, click on Pages.**
+3. **Under "Branch", select the `main` (or `master`) branch and the `/(root)` folder.**
+4. **Click Save.**
+
+After a few moments, your page will be available at the address provided by GitHub Pages.
 
 ### File Structure
 
