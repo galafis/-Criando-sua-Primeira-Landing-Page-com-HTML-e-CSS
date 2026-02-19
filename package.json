@@ -1,0 +1,9 @@
+{
+  "name": "-criando-sua-primeira-landing-page-com-html-e-css",
+  "version": "1.0.0",
+  "description": "Este repositório contém o código-fonte de uma landing page moderna e totalmente responsiva, criada como parte de um tutorial completo para ensinar os fundamentos do desenvolvimento web com **HTML5**, ",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
