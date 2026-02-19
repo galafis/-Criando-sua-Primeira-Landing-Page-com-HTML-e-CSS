@@ -49,7 +49,21 @@ Visualize o projeto em ação! A landing page está hospedada e totalmente funci
 
 O projeto segue uma estrutura de arquivos organizada para facilitar a manutenção e escalabilidade.
 
-![Diagrama de Arquitetura](docs/screenshots/architecture-diagram.png)
+```mermaid
+graph TD
+    LP[Landing Page\nindex.html] --> S1[Seção Hero\nTítulo + CTA Principal]
+    LP --> S2[Seção Sobre\nDescrição do Produto/Serviço]
+    LP --> S3[Seção Features\nCards de Benefícios]
+    LP --> S4[Seção Depoimentos\nProvas Sociais]
+    LP --> S5[Seção Contato\nFormulário + Validação JS]
+    LP --> S6[Footer\nLinks + Redes Sociais]
+
+    S1 & S2 & S3 & S4 & S5 & S6 -->|Estilização| CSS[style.css\nVariáveis CSS\nMedia Queries\nAnimações]
+    S1 & S3 & S5 -->|Interatividade| JS[script.js\nMenu Mobile\nSmooth Scroll\nValidação de Formulário]
+
+    CSS --> RESP[Design Responsivo\nDesktop · Tablet · Mobile]
+    JS --> INT[Interações\nHover · Scroll · Click]
+```
 
 ### 🚀 Como Começar
 
@@ -70,7 +84,16 @@ Para executar o projeto localmente, siga estes passos:
 
 O desenvolvimento deste projeto seguiu um fluxo de trabalho claro e iterativo, desde a estruturação inicial até o deploy final.
 
-![Diagrama de Workflow](docs/screenshots/workflow-diagram.png)
+```mermaid
+flowchart LR
+    A[Protótipo\nFigma / Sketch] --> B[Estrutura HTML\nHTML Semântico]
+    B --> C[Estilização Base\nCSS Reset + Variáveis]
+    C --> D[Layout Responsivo\nFlexbox + Media Queries]
+    D --> E[Animações CSS\n@keyframes + Transitions]
+    E --> F[Interatividade JS\nDOM + Event Listeners]
+    F --> G[Testes\nCross-browser · Mobile]
+    G --> H[Deploy\nGitHub Pages]
+```
 
 ### 🤝 Contribuindo
 
@@ -121,7 +144,21 @@ See the project in action! The landing page is hosted and fully functional via G
 
 The project follows an organized file structure to facilitate maintenance and scalability.
 
-![Architecture Diagram](docs/screenshots/architecture-diagram.png)
+```mermaid
+graph TD
+    LP[Landing Page\nindex.html] --> S1[Hero Section\nHeadline + Main CTA]
+    LP --> S2[About Section\nProduct/Service Description]
+    LP --> S3[Features Section\nBenefit Cards]
+    LP --> S4[Testimonials Section\nSocial Proof]
+    LP --> S5[Contact Section\nForm + JS Validation]
+    LP --> S6[Footer\nLinks + Social Media]
+
+    S1 & S2 & S3 & S4 & S5 & S6 -->|Styling| CSS[style.css\nCSS Variables\nMedia Queries\nAnimations]
+    S1 & S3 & S5 -->|Interactivity| JS[script.js\nMobile Menu\nSmooth Scroll\nForm Validation]
+
+    CSS --> RESP[Responsive Design\nDesktop · Tablet · Mobile]
+    JS --> INT[Interactions\nHover · Scroll · Click]
+```
 
 ### 🚀 Getting Started
 
@@ -142,7 +179,16 @@ To run the project locally, follow these steps:
 
 The development of this project followed a clear and iterative workflow, from the initial structure to the final deployment.
 
-![Workflow Diagram](docs/screenshots/workflow-diagram.png)
+```mermaid
+flowchart LR
+    A[Prototype\nFigma / Sketch] --> B[HTML Structure\nSemantic HTML]
+    B --> C[Base Styling\nCSS Reset + Variables]
+    C --> D[Responsive Layout\nFlexbox + Media Queries]
+    D --> E[CSS Animations\n@keyframes + Transitions]
+    E --> F[JS Interactivity\nDOM + Event Listeners]
+    F --> G[Testing\nCross-browser · Mobile]
+    G --> H[Deploy\nGitHub Pages]
+```
 
 ### 🤝 Contributing
 
